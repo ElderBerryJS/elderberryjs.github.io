@@ -1,0 +1,161 @@
+/*POPPINS FONT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+
+    margin: 0px;
+    background: url("images/gridbg.png");
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.headercontainer{
+
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    z-index: 2;
+    text-align: center;
+
+}
+
+.header{
+
+    background: linear-gradient(0deg, rgb(230, 54, 101) 0%, rgb(255,62,114) 100%);
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    border-bottom: 8px #3f4a81 solid;
+
+}
+
+.logoheader{
+
+    vertical-align: middle;
+    position: relative;
+    height: 55px;
+    z-index: 3;
+    transition: 0.15s;
+    content:url("images/logo more.svg");
+
+}
+
+.logoheader:hover{
+
+    cursor: pointer;
+    opacity: 0.2;
+
+}
+
+img{
+
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+
+}
+
+.headerbutton{
+
+    height: 40px;
+    position: relative;
+    vertical-align: middle;
+    z-index: 3;
+    transition: 0.3s;
+
+}
+
+.headerbutton:hover{
+
+    height: 46px;
+
+}
+
+main{
+
+    padding-top: 65px;
+    text-align: center;
+
+}
+
+.firstmainlogo{
+
+    height: 35vmin;
+
+}
+
+p{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+
+}
+
+.pong_prev{
+
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 80vmin;
+    border-radius: 20px;
+
+}
+
+.mainheaderbutton{
+
+    height: 17vmin;
+    position: relative;
+    vertical-align: middle;
+    transition: 0.3s;
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #222222);
+
+}
+
+.mainheaderbutton:hover{
+
+    height: 22vmin;
+
+}
+
+#JMIDEVLOGO{
+
+    height: 27vmin;
+    position: relative;
+    vertical-align: middle;
+    transition: 0.3s;
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #222222);
+    border-radius: 50%;
+    margin-bottom: 100px;
+
+}
+
+#JMIDEVLOGO:hover{
+
+    height: 33vmin;
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .logoheader{
+
+        content:url("images/logo.svg");
+    
+    }
+
+    p{
+
+        margin-left: 4%;
+        margin-right: 4%;
+    
+    }
+
+}
