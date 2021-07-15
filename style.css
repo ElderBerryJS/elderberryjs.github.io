@@ -87,6 +87,8 @@ main{
 .firstmainlogo{
 
     height: 35vmin;
+    -webkit-filter: drop-shadow(0px 15px 0px #c64e69);
+    filter: drop-shadow(0px 15px 0px #c64e69);
 
 }
 
@@ -104,6 +106,8 @@ p{
     margin-bottom: 70px;
     width: 80vmin;
     border-radius: 20px;
+    -webkit-filter: drop-shadow(0px 15px 0px #232d61);
+    filter: drop-shadow(40px 40px 0px #232d61);
 
 }
 
@@ -113,14 +117,30 @@ p{
     position: relative;
     vertical-align: middle;
     transition: 0.3s;
-    -webkit-filter: drop-shadow(5px 5px 5px #222222);
-    filter: drop-shadow(5px 5px 5px #222222);
+    -webkit-filter: drop-shadow(20px 20px 0px #111111);
+    filter: drop-shadow(20px 20px 0px #111111);
 
 }
 
 .mainheaderbutton:hover{
 
     height: 22vmin;
+    -webkit-filter: drop-shadow(-20px -20px 0px #6b6b6b);
+    filter: drop-shadow(-20px -20px 0px #6b6b6b);
+
+}
+
+#docsmainbutton{
+
+    -webkit-filter: drop-shadow(-20px -20px 0px rgb(0, 89, 255));
+    filter: drop-shadow(-20px -20px 0px rgb(0, 89, 255));
+
+}
+
+#docsmainbutton:hover{
+
+    -webkit-filter: drop-shadow(20px 20px 0px rgb(0, 255, 170));
+    filter: drop-shadow(20px 20px 0px rgb(0, 255, 170));
 
 }
 
@@ -130,8 +150,8 @@ p{
     position: relative;
     vertical-align: middle;
     transition: 0.3s;
-    -webkit-filter: drop-shadow(5px 5px 5px #222222);
-    filter: drop-shadow(5px 5px 5px #222222);
+    -webkit-filter: drop-shadow(20px 20px 0px #3b3446);
+    filter: drop-shadow(20px 20px 0px #3b3446);
     border-radius: 50%;
     margin-bottom: 100px;
 
@@ -140,6 +160,8 @@ p{
 #JMIDEVLOGO:hover{
 
     height: 33vmin;
+    -webkit-filter: drop-shadow(-20px -20px 0px #344046);
+    filter: drop-shadow(-20px -20px 0px #344046);
 
 }
 
