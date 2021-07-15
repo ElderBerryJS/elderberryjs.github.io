@@ -117,30 +117,30 @@ p{
     position: relative;
     vertical-align: middle;
     transition: 0.3s;
-    -webkit-filter: drop-shadow(20px 20px 0px #111111);
-    filter: drop-shadow(20px 20px 0px #111111);
+    -webkit-filter: drop-shadow(-20px 20px 0px #7700ff) drop-shadow(20px -20px 0px rgb(179, 255, 0));
+    filter: drop-shadow(-20px 20px 0px #7700ff) drop-shadow(20px -20px 0px rgb(179, 255, 0));
 
 }
 
 .mainheaderbutton:hover{
 
     height: 22vmin;
-    -webkit-filter: drop-shadow(-20px -20px 0px #6b6b6b);
-    filter: drop-shadow(-20px -20px 0px #6b6b6b);
+    -webkit-filter: drop-shadow(20px -20px 0px #7700ff) drop-shadow(-20px 20px 0px rgb(179, 255, 0));
+    filter: drop-shadow(20px -20px 0px #7700ff) drop-shadow(-20px 20px 0px rgb(179, 255, 0));
 
 }
 
 #docsmainbutton{
 
-    -webkit-filter: drop-shadow(-20px -20px 0px rgb(0, 89, 255));
-    filter: drop-shadow(-20px -20px 0px rgb(0, 89, 255));
+    -webkit-filter: drop-shadow(-20px -20px 0px rgb(0, 89, 255)) drop-shadow(20px 20px 0px rgb(0, 255, 170));
+    filter: drop-shadow(-20px -20px 0px rgb(0, 89, 255) drop-shadow(20px 20px 0px rgb(0, 255, 170)));
 
 }
 
 #docsmainbutton:hover{
 
-    -webkit-filter: drop-shadow(20px 20px 0px rgb(0, 255, 170));
-    filter: drop-shadow(20px 20px 0px rgb(0, 255, 170));
+    -webkit-filter: drop-shadow(20px 20px 0px rgb(0, 89, 255)) drop-shadow(-20px -20px 0px rgb(0, 255, 170));
+    filter: drop-shadow(20px 20px 0px rgb(0, 89, 255) drop-shadow(-20px -20px 0px rgb(0, 255, 170)));
 
 }
 
@@ -150,8 +150,8 @@ p{
     position: relative;
     vertical-align: middle;
     transition: 0.3s;
-    -webkit-filter: drop-shadow(20px 20px 0px #3b3446);
-    filter: drop-shadow(20px 20px 0px #3b3446);
+    -webkit-filter: drop-shadow(-20px 20px 0px #a200ff) drop-shadow(20px -20px 0px #00aaff);
+    filter: drop-shadow(-20px 20px 0px #a200ff) drop-shadow(20px -20px 0px #00aaff);
     border-radius: 50%;
     margin-bottom: 100px;
 
@@ -160,8 +160,8 @@ p{
 #JMIDEVLOGO:hover{
 
     height: 33vmin;
-    -webkit-filter: drop-shadow(-20px -20px 0px #344046);
-    filter: drop-shadow(-20px -20px 0px #344046);
+    -webkit-filter: drop-shadow(20px -20px 0px #a200ff) drop-shadow(-20px 20px 0px #00aaff);
+    filter: drop-shadow(20px -20px 0px #a200ff) drop-shadow(-20px 20px 0px #00aaff);
 
 }
 
